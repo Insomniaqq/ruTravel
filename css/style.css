@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 2px 2px rgb(63, 63, 63);
+}
+
+.header__title {
+    margin: 0;
+}
+
+.nav {
+    margin-top: 10px;
+}
+
+.nav__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav__item {
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    padding: 0 160px 0 160px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.article__title {
+    font-size: 24px;
+}
+
+.about,
+.contact1,
+.gallery {
+    margin-bottom: 40px;
+}
+
+.about__title,
+.contact__title1,
+.gallery__title {
+    font-size: 22px;
+    color: #333;
+}
+
+.about__content,
+.contact__content {
+    font-size: 16px;
+}
+
+.gallery__images {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery__image {
+    width: calc(33% - 10px);
+    border-radius: 5px;
+}
+
+
+.form__element{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__element input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 30%;
+}
+
+.form__button{
+    width: 150px;
+    background-color: #449246;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: #f9f9f9;
+}
+
+.form__button:hover{
+    background-color: #245225;
+
+}
+.footer {
+    position: absolute;
+   background-color: #4CAF50;
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+   left: 0;
+   width: 100%;
+    box-shadow: 0px 0px 2px 2px rgb(63, 63, 63);
+
+}
+
+.tour__image{
+    width: 900px;
+}
+
+.tour__button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+
+.tour__button:hover {
+    background-color: #327734;
+}
+
+.tour__button:active {
+    transform: scale(0.95);
+}
+
+.reviews {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.reviews__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.reviews__description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.reviews__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.review {
+    background-color: #fff;
+    border-left: 4px solid #044406;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.review p {
+    font-size: 16px;
+    color: #333;
+}
+
+.review cite {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+}
+
+.contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.contact__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact__description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact__info {
+    margin-bottom: 20px;
+}
+
+.contact__info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact__form input,
+.contact__form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.contact__form textarea {
+    resize: vertical;
+}
+
+.contact__button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.contact__button:hover {
+    background-color: #377e39;
+}
+
+
+.contact__button:focus {
+    outline: none;
+}
+
+
+.contact__button:active {
+    transform: scale(0.95);
+}

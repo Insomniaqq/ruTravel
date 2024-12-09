@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Регистрация на сайте о путешествиях.">
+    <meta name="keywords" content="регистрация, путешествия, сайт о путешествиях">
+    <title>Регистрация - RuTravel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="img/free-icon-flight-4283062.png" alt="icon" style="width: 50px; vertical-align: middle;">
+        <h1 class="header__title">Регистрация</h1>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                <li class="nav__item"><a href="tour.html" class="nav__link">Туры</a></li>
+                <li class="nav__item"><a href="blog.html" class="nav__link">Блог</a></li>
+                <li class="nav__item"><a href="review.html" class="nav__link">Отзывы</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Контакты</a></li>
+                <li class="nav__item"><a href="register.html" class="nav__link">Регистрация</a></li>
+                <li class="nav__item"><a href="login.html" class="nav__link">Авторизация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="form form--register">
+            <h2 class="form__title">Создайте аккаунт</h2>
+            <form action="" method="POST" class="form__element">
+                <label for="username" class="form__label">Имя пользователя:</label>
+                <input type="text" id="username" name="username" required class="form__input">
+
+                <label for="email" class="form__label">Адрес электронной почты:</label>
+                <input type="email" id="email" name="email" required class="form__input">
+
+                <label for="password" class="form__label">Пароль:</label>
+                <input type="password" id="password" name="password" required class="form__input">
+
+                <label for="confirm-password" class="form__label">Подтвердите пароль:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required class="form__input">
+
+                <button type="submit" class="form__button">Зарегистрироваться</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer" style="bottom: 0;">
+        <p class="footer__text">&copy; 2024 RuTravel. Все права защищены.</p>
+    </footer>
+</body>
+</html>

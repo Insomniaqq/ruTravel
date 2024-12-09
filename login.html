@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Авторизация на сайте о путешествиях.">
+    <meta name="keywords" content="авторизация, путешествия, сайт о путешествиях">
+    <title>Авторизация - RuTravel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="img/free-icon-flight-4283062.png" alt="icon" style="width: 50px; vertical-align: middle;">
+        <h1 class="header__title">Авторизация</h1>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                <li class="nav__item"><a href="tour.html" class="nav__link">Туры</a></li>
+                <li class="nav__item"><a href="blog.html" class="nav__link">Блог</a></li>
+                <li class="nav__item"><a href="review.html" class="nav__link">Отзывы</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Контакты</a></li>
+                <li class="nav__item"><a href="register.html" class="nav__link">Регистрация</a></li>
+                <li class="nav__item"><a href="login.html" class="nav__link">Авторизация</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="form form--login">
+            <h2 class="form__title">Войдите в свой аккаунт</h2>
+            <form action="" method="POST" class="form__element">
+                <label for="login-username" class="form__label">Имя пользователя:</label>
+                <input type="text" id="login-username" name="username" required class="form__input">
+
+                <label for="login-password" class ="form__label">Пароль:</label>
+                <input type="password" id="login-password" name="password" required class="form__input">
+
+                <button type ="submit" class="form__button">Войти</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer" style="bottom: 0;">
+        <p class="footer__text">&copy; 2024 RuTravel. Все права защищены.</p>
+    </footer>
+</body>
+
+</html>
